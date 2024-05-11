@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/Software Design/POS 2.0/css/login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="wrapper">
+      <button class="buttonback" onclick="redirectToAnotherPage()">
+        <div class="button-box">
+          <span class="button-elem">
+            <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"
+              ></path>
+            </svg>
+          </span>
+          <span class="button-elem">
+            <svg viewBox="0 0 46 40">
+              <path
+                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"
+              ></path>
+            </svg>
+          </span>
+        </div>
+      </button>
+      
+ 
+        <h1> <strong> Minimat POS </strong></h1>
+        <p> @all rights reserved</p>
+        
+        
+        <form class="form">
+            <div class="form-title"><span>sign in to your</span></div>
+             <div class="title-2"><span>SPACE</span></div>
+             <div class="input-container">
+               <input class="input-mail" type="email" placeholder="Enter email">
+               <span> </span>
+             </div>
+            
+             <section class="bg-stars">
+               <span class="star"></span>
+               <span class="star"></span>
+               <span class="star"></span>
+               <span class="star"></span>
+             </section>
+       
+             <div class="input-container">
+               <input class="input-pwd" type="password" placeholder="Enter password">
+             </div>
+             <button type="button" class="submit" onclick="redirectToPosPage()">
+               <span class="sign-text">Sign in</span>
+             </button>
+       
+             <p class="signup-link">
+               No account?
+               <a href="" class="up">Sign up!</a>
+             </p>
+              
+          </form>
+    
+          <header>
+       
+            <div id="particles"></div>
+        </header>
+    
+        
+
+    
+        </header>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="/Software Design/POS 2.0/js/login.js"></script>
+</body>
+</html>
