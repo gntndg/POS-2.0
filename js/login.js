@@ -81,12 +81,11 @@ function scrollToTop() {
     });
 }
 
-function redirectToAnotherPage() {
-    window.location.href = 'index.html';
-  }
 
-  
-function redirectToPosPage() {
-    window.location.href = 'pos.html';
-  
-  }
+
+  document.querySelector('.signup-link .up').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevents default behavior of anchor tag
+    loadSignUpPage();
+});
+
+
