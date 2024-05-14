@@ -1,0 +1,26 @@
+.itemcontainer .box{
+  width:70.5em;
+  height: 7px;
+  color: black;
+  padding: 1rem;
+  background-color: rgb(204, 200, 200);
+  border: 1px solid rgba(5, 5, 5, 0.984);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  transition: all ease 0.3s;
+  display: flex;
+  cursor: pointer;
+  gap: 80px;
+  
+}
+
+.box .productname, .productprice, .productcategory, .productcode{
+  overflow: hidden;
+  white-space: nowrap;
+  width: 90%;
+}
+
+.itemcontainer .box:hover {
+  box-shadow: 1px 0px 20px 0px #81c0abfe;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
