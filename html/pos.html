@@ -4,53 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minimat POS</title>
-    <link rel="stylesheet" href="/css/pos.css">
+    <link rel="stylesheet" href="css/pos.css">
 </head>
 <body>                    <!-- MAIN NAVIGATION BAR-->
 
     
     <nav class="mainnavigation">
                 
-        <div class="configure-border-1">  
-            <div class="configure-core"></div>
-          </div>  
-          <div class="configure-border-2">
-            <div class="configure-core"></div>
-          </div> 
+      <div class="paste-button">
+        <button class="buttonx">Navigate &nbsp; ▼</button>
+        <div class="dropdown-contentx">
+          <a id="top" href="inventory.html"><strong>Inventory</strong></a>
+          <a id="middle" href="cusstomermanage.html"><strong>Customers</strong></a>
+          <a id="bottom" href="users.html"><strong>Users</strong></a>
+          <a id="bottom" href="pos.html"><strong>Home</strong></a>
+          <a id="bottom" href="index.html"><strong>Exit</strong></a>
         </div>
+      </div>
+      
 
           
 
-                <div class="logo">
-                    <img src="/assets/logo.png" class="image_logo">
-                </div>
-                <h1> Minimat Point of Sale</h1>
+        <div class="logo">
+          <a href="index.html">
+              <img src="assets/logo.png" class="image_logo">
+          </a>
+      </div>
+                <h1> </h1>
 
                 
                 <a class="settings" href="#">
-                    <img src="/assets/setttings_logo.png" class="settings_logo">
+                    
                 </a>
                     
                 <a class="notification" href="#">
-                    <img src="/assets/notif_logo.png" class="notif_logo">
-                </a>
-
-                <a class="user_image" href="#">
-                    <img src="/assets/user_logo.png" class="user_logo">
-                </a>
-
-                 <div class="cashier_info">
-                    <h4>Tandog, Gian
-                        <br>
-                    Cashier
-                    </h4>
                     
-                 </div>
+                </a>
+
+                <div class="cashier_info">
+                  <h4>Tandog, Gian
+                      <br>
+                  Cashier</h4>
+                  
+                  
+               </div>
+
+                 <a class="user_image" href="userinfo.html">
+                  <img src="assets/user_logo.png" class="user_logo">
+                  
+              </a>
+
     </nav>
         
                 <!-- CONTAINER OF .CATEGORY DIV AND DIV ITEM DISPLAY-->
                 
-                <div class="maincontainer">
+  <div class="maincontainer">
 
                     <!-- CONTAINER 1 ------------------------->
         <div class="container1">
@@ -64,16 +72,16 @@
 
 
                             <div class="dropdown-content">
-                              <a href="#">Electronics</a>
-                              <a href="#">Clothing</a>
-                              <a href="#">Food</a>
-                              <a href="#">Home</a>
-                              <a href="#">Health</a>
-                              <a href="#">Office</a>
-                              <a href="#">Sports</a>
-                              <a href="#">Toys</a>
-                              <a href="#">Automotive</a>
-                              <a href="#">Miscellaneous</a>
+                              <a href="pos-electronics.html" id="electronics-link">Electronics</a>
+                              <a href="pos-clothing.html" id="clothing-link">Clothing</a>
+                              <a href="pos-food.html" id="food-link">Food</a>
+                              <a href="pos-home.html"id=home-link>Home</a>
+                              <a href="pos-health.html" id="health-link">Health</a>
+                              <a href="pos-office.html" id="office-link">Office</a>
+                              <a href="pos-sports.html" id="sports-link">Sports</a>
+                              <a href="pos-toys.html" id="toys-link">Toys</a>
+                              <a href="pos-automotive.html" id="automotive-link">Automotive</a>
+                              <a href="pos-miscellaneous.html" id="miscellaneous-link">Miscellaneous</a>
                             </div>
                     </div>
 
@@ -82,154 +90,167 @@
                                       <form action="#" method="GET">
                                       <input type="text" name="search" placeholder="  Search Product here...">
                                       
+                                      
+                                
                                       </form>
-
                                </div>
 
-                               <div class="iconsearch">
-                                <button type="submit">
-                                  <img src="mg.png" class="icon">
-                                </button>
+
+                                <div class="iconsearch">
+                                
+                                        <button type="submit">
+                                          <img src="assets/mg (2).png" class="icon">
+                                        </button>
                                 </div>
+
+                               
+                              
 
 
 
 
                </div>
 
-
-
-
-
-                      
-                  
-
-
-                           
-                          
-
                             
                         <div class="item_card">
 
 
                             <div class="itemcontainer">
-                                <div class="box">
-                                  <div class="productname"><strong>Milktea and Juice</strong></div>
-                                  <div class="productprice">P100</div>
-                                  <div class="productcategory">Food and Beverages</div>
-                                  <div class="productcode">35123521</div>
-                                </div>
-                            </div>
 
-                            <div class="itemcontainer">
-                              <div class="box">
-                                <div class="productname"><strong>Milktea and Juice</strong></div>
-                                <div class="productprice">P100</div>
-                                <div class="productcategory">Food and Beverages</div>
-                                <div class="productcode">35123521</div>
-                              </div>
-                          </div>
-                          <div class="itemcontainer">
-                            <div class="box">
-                              <div class="productname"><strong>Milktea and Juice</strong></div>
-                              <div class="productprice">P100</div>
-                              <div class="productcategory">Food and Beverages</div>
-                              <div class="productcode">35123521</div>
-                            </div>
-                        </div>
-                        <div class="itemcontainer">
-                          <div class="box">
-                            <div class="productname"><strong>Milktea and Juice</strong></div>
-                            <div class="productprice">P100</div>
-                            <div class="productcategory">Food and Beverages</div>
-                            <div class="productcode">35123521</div>
-                          </div>
-                      </div>
-                      <div class="itemcontainer">
-                        <div class="box">
-                          <div class="productname"><strong>Milktea and Juice</strong></div>
-                          <div class="productprice">P100</div>
-                          <div class="productcategory">Food and Beverages</div>
-                          <div class="productcode">35123521</div>
-                        </div>
-                    </div>
-                    <div class="itemcontainer">
-                      <div class="box">
-                        <div class="productname"><strong>Milktea and Juice</strong></div>
-                        <div class="productprice">P100</div>
-                        <div class="productcategory">Food and Beverages</div>
-                        <div class="productcode">35123521</div>
-                      </div>
-                  </div>
-                  <div class="itemcontainer">
-                    <div class="box">
-                      <div class="productname"><strong>Milktea and Juice</strong></div>
-                      <div class="productprice">P100</div>
-                      <div class="productcategory">Food and Beverages</div>
-                      <div class="productcode">35123521</div>
-                    </div>
-                </div>
-                <div class="itemcontainer">
-                  <div class="box">
-                    <div class="productname"><strong>Milktea and Juice</strong></div>
-                    <div class="productprice">P100</div>
-                    <div class="productcategory">Food and Beverages</div>
-                    <div class="productcode">35123521</div>
-                  </div>
-              </div>
-              <div class="itemcontainer">
-                <div class="box">
-                  <div class="productname"><strong>Milktea and Juice</strong></div>
-                  <div class="productprice">P100</div>
-                  <div class="productcategory">Food and Beverages</div>
-                  <div class="productcode">35123521</div>
-                </div>
-            </div>
-            <div class="itemcontainer">
-              <div class="box">
-                <div class="productname"><strong>Milktea and Juice</strong></div>
-                <div class="productprice">P100</div>
-                <div class="productcategory">Food and Beverages</div>
-                <div class="productcode">35123521</div>
-              </div>
-          </div>
-          <div class="itemcontainer">
-            <div class="box">
-              <div class="productname"><strong>Milktea and Juice</strong></div>
-              <div class="productprice">P100</div>
-              <div class="productcategory">Food and Beverages</div>
-              <div class="productcode">35123521</div>
-            </div>
-        </div>
-        <div class="itemcontainer">
-          <div class="box">
-            <div class="productname"><strong>Milktea and Juice</strong></div>
-            <div class="productprice">P100</div>
-            <div class="productcategory">Food and Beverages</div>
-            <div class="productcode">35123521</div>
-          </div>
-      </div>
-      <div class="itemcontainer">
-        <div class="box">
-          <div class="productname"><strong>Milktea and Juice</strong></div>
-          <div class="productprice">P100</div>
-          <div class="productcategory">Food and Beverages</div>
-          <div class="productcode">35123521</div>
-        </div>
-    </div>
-    <div class="itemcontainer">
-      <div class="box">
-        <div class="productname"><strong>Milktea and Juice</strong></div>
-        <div class="productprice">P100</div>
-        <div class="productcategory">Food and Beverages</div>
-        <div class="productcode">35123521</div>
-      </div>
-  </div>
+                              
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
 
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                                <button class="box">
+                                  <div class="productname"><strong><p>Milktea and Juice</p></strong></div>
+                                  <div class="productprice"><p>P100</p></div>
+                                  <div class="productcategory"><p>Food and Beverages</p></div>
+                                  <div class="productcode"><p>35123521</p></div>
+                                </button>
+
+                              
                             
                         </div>
 
                       </div>
+
+        </div>
                       
                
                     <!-- CONTAINER 1 ------------------------->
@@ -278,9 +299,8 @@
 
 
 
-
-                
-        
+<script src="js/pos.js"></script>
+              
 
 </body>
 </html>
