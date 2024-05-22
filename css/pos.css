@@ -52,6 +52,7 @@ body{
   position: relative;
   display: block;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 50px;
 }
 
 .buttonx {
