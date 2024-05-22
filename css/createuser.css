@@ -49,10 +49,12 @@ body{
     
 }
 
+
 .paste-button {
   position: relative;
   display: block;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 50px;
 }
 
 .buttonx {
@@ -63,8 +65,8 @@ body{
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
-  border-radius: 10px;
-  width: 180px;
+  width: 50px;
+  margin-left: 2px;
 }
 
 .dropdown-contentx {
@@ -75,7 +77,6 @@ body{
   z-index: 1;
   min-width: 100px;
   background-color: #ffffff;
-  border-radius: 10px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -84,7 +85,6 @@ body{
   padding: 15px 1px;
   text-decoration: none;
   display: block;
-  width: 180px;
   transition: 0.1s;
 }
 
@@ -99,13 +99,20 @@ body{
 }
 
 
-
-.paste-button:hover button {
-  border-radius: 5px;
-}
-
 .paste-button:hover .dropdown-contentx {
   display: block;
+}
+
+
+.settings .settings_logo{
+    height: 90%;
+    width: 80%;
+}
+
+.notification .notif_logo{
+  height: 90%;
+  width: 80%;
+   
 }
 
 .user_image{
