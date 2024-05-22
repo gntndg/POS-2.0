@@ -62,9 +62,10 @@ body{
   font-weight: bold;
   cursor: pointer;
   margin-top: 10px;
-  border-radius: 10px;
+ 
+  width: 50px;
+  margin-left: 2px;
 }
-
 
 .dropdown-contentx {
   display: none;
@@ -74,7 +75,7 @@ body{
   z-index: 1;
   min-width: 100px;
   background-color: #ffffff;
-  border-radius: 10px;
+  
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -100,12 +101,13 @@ body{
 
 
 .paste-button:hover button {
-  border-radius: 5px;
+  
 }
 
 .paste-button:hover .dropdown-contentx {
   display: block;
 }
+
 
 
 .settings .settings_logo{
@@ -646,78 +648,6 @@ input[type="text"] {
 
 
 
-
-
-
-.burger {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
-  cursor: pointer;
-  transition: 300ms;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.burger input[type="checkbox"] {
-  appearance: none;
-  transition: 300ms;
-}
-
-.burger::before,
-.burger::after {
-  content: "";
-  transition: 300ms;
-  transform-origin: center center;
-}
-
-.burger::before {
-  transform: translateY(8px);
-}
-.burger::after {
-  transform: translateY(-8px); 
-}
-
-.burger .line,
-.burger::before,
-.burger::after {
-  width: 25px;
-  height: 2.1px;
-  display: block;
-  background-color: black;
-  border-radius: 5px;
-  position: absolute;
-}
-
-.burger .line:checked {
-  width: 0;
-  transition-delay: 100ms;
-}
-.burger:has(.line:checked)::before {
-  animation: animation1 400ms ease-out 0s 1 both;
-}
-.burger:has(.line:checked)::after {
-  animation: animation2 400ms ease-out 0s 1 both;
-}
-
-.burger:hover {
-  background: #aeaeae;
-  border-radius: 50%;
-}
-
-.burger:hover .line,
-.burger:hover::before,
-.burger:hover::after {
-  background: #e8e8e8;
-}
-
-.burger:active {
-  scale: 0.95;
-}
 
 
 
