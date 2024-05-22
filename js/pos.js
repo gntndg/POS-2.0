@@ -27,52 +27,52 @@
         // Event listeners for each link
         document.getElementById("electronics-link").addEventListener("click", function(event) {
             event.preventDefault();
-            loadContent("pos-electronics.html");
+            loadContent("html/pos-electronics.html");
         });
 
         document.getElementById("clothing-link").addEventListener("click", function(event) {
             event.preventDefault(); 
-            loadContent("pos-clothing.html");
+            loadContent("html/pos-clothing.html");
         });
 
         document.getElementById("food-link").addEventListener("click", function(event) {
             event.preventDefault(); 
-            loadContent("pos-food.html");
+            loadContent("html/pos-food.html");
         });
 
         document.getElementById("home-link").addEventListener("click", function(event) {
             event.preventDefault(); 
-            loadContent("pos-home.html");
+            loadContent("html/pos-home.html");
         });
 
         document.getElementById("health-link").addEventListener("click", function(event) {
             event.preventDefault(); 
-            loadContent("pos-health.html");
+            loadContent("html/pos-health.html");
         });
 
         document.getElementById("office-link").addEventListener("click", function(event) {
             event.preventDefault(); 
-            loadContent("pos-office.html");
+            loadContent("html/pos-office.html");
         });
 
         document.getElementById("sports-link").addEventListener("click", function(event) {
             event.preventDefault(); 
-            loadContent("pos-sports.html");
+            loadContent("html/pos-sports.html");
         });
 
         document.getElementById("toys-link").addEventListener("click", function(event) {
             event.preventDefault(); 
-            loadContent("pos-toys.html");
+            loadContent("html/pos-toys.html");
         });
 
         document.getElementById("automotive-link").addEventListener("click", function(event) {
             event.preventDefault(); 
-            loadContent("pos-automotive.html");
+            loadContent("html/pos-automotive.html");
         });
 
         document.getElementById("miscellaneous-link").addEventListener("click", function(event) {
             event.preventDefault(); 
-            loadContent("pos-miscellaneous.html");
+            loadContent("html/pos-miscellaneous.html");
         });
 
     });
