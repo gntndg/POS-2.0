@@ -4,14 +4,12 @@
   padding: 0;
   margin: 0;
 }
-
-
 body{
     margin:0;
     padding:0;
     width: 200vh;
     height: 90vh;
-    background: rgb(73, 82, 53);
+    background: rgb(55, 75, 12);
    
 }
 
@@ -117,7 +115,6 @@ body{
     margin-left: 7px;
 }
 
-
 .user_image .user_logo{
   height: 30px;
   width: 30px;
@@ -144,55 +141,6 @@ body{
 
 
 
-
-
-
-.maincontainer{
-    width: 220.9vh;
-    height: 630px;
-    background: darkblue;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,400&display=swap');
-*{
-  font-family: 'Montserrat', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-body{
-    margin:0;
-    padding:0;
-    width: 200vh;
-    height: 90vh;
-    background: rgb(55, 75, 12);
-   
-}
-
-
-.mainnavigation{
-    height: 65px;
-    width: 220.9vh;
-    background: rgb(20, 29, 21);
-    background-image: radial-gradient(
-          circle at 0% 0%,
-          rgb(3, 34, 9) 15%,
-          rgba(6, 15, 88, 0) 75%
-        ),
-        radial-gradient(
-          circle at 100% 100%,
-          rgba(4, 4, 6, 0.488) 15%,
-          rgba(0, 0, 0, 0) 150%
-        ),
-        linear-gradient(
-          135deg,
-          rgba(24, 8, 28, 0) 0%,
-          rgba(18, 18, 103, 0.599) 50%,
-          rgba(24, 8, 28, 0) 100%
-        );
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
 
 
 
