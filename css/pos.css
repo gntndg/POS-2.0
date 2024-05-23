@@ -184,7 +184,7 @@ body{
 background: linear-gradient(90deg, rgba(187,113,195,1) 0%, rgba(35,116,154,1) 86%);}
 
 .maincontainer .container1{
-    height: 610px;
+    height: 600px;
     width: 950px;
     background: rgb(255, 255, 255);
    margin: 20px 20px;
@@ -286,6 +286,7 @@ input[type="text"] {
   align-items: center;
   justify-content: center;
   margin-top: 15px;
+
 }
 
 
@@ -293,14 +294,91 @@ input[type="text"] {
 
 
 
+.anothernav{
+  border-top: 5px solid rgb(148, 82, 210);
+  margin-top: 19px;
+  height: 50px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
 
 
+}
+
+.box p{
+  margin-top: 6px;
+}
 
 
+.anothernav h4{
+  margin-top: 5px;
+}
+
+.anothernav .imagecontainer{
+  height: 30px;
+  width: 80px;
+  background-color: #d2d3e6;
+  border: solid rgb(255, 255, 255) 2px;
+}
 
 
+.anothernav .pricecontainer{
+  height: 30px;
+  width: 200px;
+  background-color: #d2d3e6;
+  border: solid rgb(255, 255, 255) 2px;
+  
+}
+
+.anothernav .namecontainer{
+  height: 30px;
+  width: 200px;
+  background-color: #d2d3e6;
+  border: solid rgb(255, 255, 255) 2px;
+}
+
+.anothernav .actioncontainer{
+  height: 30px;
+  width: 200px;
+  background-color: #d2d3e6;
+  border: solid rgb(255, 255, 255) 2px;
+}
 
 
+.box .productimage{
+  width: 200px;
+  height: 30px;
+  background-color: #f2f2f2;
+  
+  
+}
+
+.box .productname{
+  width: 680px;
+  height: 30px;
+  background-color: #f2f2f2;
+  margin-left: 80px;
+  overflow-x: hidden;
+}
+
+.box .productprice{
+  width: 680px;
+  height: 30px;
+  background-color: #f2f2f2;
+  margin-left: 50px;
+}
+
+
+.box .productaction{
+  width: 680px;
+  height: 30px;
+  background-color: #f2f2f2;
+  margin-left: 60px;
+}
 
 
 
@@ -343,9 +421,8 @@ input[type="text"] {
 /* a box containing the items */
 
 .container1 .item_card {
-  height: 550px;
+  height: 480px;
   width: 136.7vh;
-  margin-top: 20px;
   order: 3;
   background-color: #ffffff;
   overflow-y: auto; /* Add scrollbar when content exceeds the height */
@@ -370,7 +447,7 @@ input[type="text"] {
 .iconsearch{
   height: 30px;
   width: 100%;
-  background: wheat;
+  
 }
 
 .icon{
@@ -413,9 +490,11 @@ input[type="text"] {
   display: flex;
   cursor: pointer;
   align-items: center;
+  text-align: center;
   justify-content: center;
  margin-bottom: 10px;
-
+ overflow-y: hidden;
+overflow-x: hidden;
   
 
 }
@@ -512,7 +591,7 @@ input[type="text"] {
     border-left: solid white 1px;
     border-top: solid green 2px;
     border-radius: 3px;
-    background: rgb(149, 163, 170);
+    background: rgb(253, 254, 255);
      }
 
   .container22 .itemselected{
@@ -593,7 +672,7 @@ input[type="text"] {
     box-shadow: 0px 0px var(--main-color);
   }
 
-  .itemcontainerx .boxselected{
+  .itemcontainerx .boxtwo{
     width:99%;
     height: 7px;
     color: black;
@@ -613,6 +692,52 @@ input[type="text"] {
    margin-top: 3px;
   margin-left: 3px;
   }
+
+  .boxtwo .productimageq{
+    width: 50px;
+    height: 30px;
+    background-color: #f2f2f2;
+  }
+
+  .boxtwo .productnameq{
+    width: 90px;
+    height: 30px;
+    background-color: #f2f2f2;
+    margin-left: 20px;
+    overflow-x: hidden;
+  }
+
+  .boxtwo .productpriceq{
+    width: 70px;
+    height: 30px;
+    background-color: #f2f2f2;
+    margin-left: 20px;
+  }
+
+  .boxtwo .productactionq{
+    width: 90px;
+    height: 30px;
+    background-color: #f2f2f2;
+    margin-left: 20px;
+    overflow-x: hidden;
+  }
+
+  .boxtwo p{
+    margin-top: 6px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
