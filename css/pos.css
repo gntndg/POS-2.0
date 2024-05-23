@@ -5,8 +5,6 @@
   margin: 0;
   width: 100%;
 }
-
-
 body{
     margin:0;
     padding:0;
@@ -182,9 +180,8 @@ body{
     display: flex;
     height: 630px;
     width: 99.5%;
-    background-color:#A9A9A9;
-
-}
+    background: rgb(187,113,195);
+background: linear-gradient(90deg, rgba(187,113,195,1) 0%, rgba(35,116,154,1) 86%);}
 
 .maincontainer .container1{
     height: 610px;
@@ -225,7 +222,7 @@ body{
 
 
 .dropdown .dropbtn{
-  margin-top: 5px;
+  margin-top: 10px;
 background: #524d4d25;
   height: 40px;
 }
@@ -288,7 +285,7 @@ input[type="text"] {
   border: solid black 1px;
   align-items: center;
   justify-content: center;
-  margin-top: 8px;
+  margin-top: 15px;
 }
 
 
@@ -350,7 +347,7 @@ input[type="text"] {
   width: 136.7vh;
   margin-top: 20px;
   order: 3;
-  background-color: #73787C;
+  background-color: #ffffff;
   overflow-y: auto; /* Add scrollbar when content exceeds the height */
   display: grid;
   grid-template-columns: 1fr;
@@ -379,14 +376,11 @@ input[type="text"] {
 .icon{
   height: 20px;
  width: 20px;
-
-
+ margin-top: 5px;
+ 
 }
 
-.icona img{
-  width: 20px;
-  height: 20px;
-}
+
 
 
 .itemcontainer::before {
@@ -428,8 +422,8 @@ input[type="text"] {
 
 
 .itemcontainer .box:hover {
-  box-shadow: 1px 0px 20px 0px #3c6557fe;
-  border: 1px solid rgba(255, 255, 255, 0.454);
+  box-shadow: 1px 0px 20px 0px #688a70fe;
+  border: 1px solid rgb(252, 252, 255);
 }
 
 
@@ -513,16 +507,16 @@ input[type="text"] {
   .container22 .itemcontainerx{
     width: 100%;
     height: 300px;
-   
     overflow-y: scroll;
     border-bottom: solid green 2px;
+    border-left: solid white 1px;
     border-top: solid green 2px;
     border-radius: 3px;
- 
-  }
+    background: rgb(35,116,154);
+     }
 
   .container22 .itemselected{
-    width: 535px;
+    width: 530px;
     height: 50px;
     border: solid green 4px;
   }
@@ -532,14 +526,14 @@ input[type="text"] {
     height:230px;
   }
   .buttonxyz {
-    --main-focus: #2d8cf0;
+    --main-focus: #46586b;
     --font-color: #323232;
     --bg-color-sub: #dedede;
     --bg-color: #eee;
     --main-color: #323232;
     position: relative;
     width: 150px;
-    height: 40px;
+    height: 30px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -551,6 +545,7 @@ input[type="text"] {
     font-size: 12px;
     margin-left: 390px;
     margin-top: 2px;
+    margin-bottom: 2px;
   }
   
   .buttonxyz, .button__iconz, .button__textz {
@@ -599,7 +594,7 @@ input[type="text"] {
   }
 
   .itemcontainerx .boxselected{
-    width:99.9%;
+    width:99%;
     height: 7px;
     color: black;
     padding: 1rem;
@@ -611,11 +606,12 @@ input[type="text"] {
     transition: all ease 0.3s;
     display: flex;
     cursor: pointer;
+    font-size: 12px;
     align-items: center;
     justify-content: center;
    margin-bottom: 10px;
    margin-top: 3px;
-  
+  margin-left: 3px;
   }
 
 
@@ -623,6 +619,8 @@ input[type="text"] {
   .calculator {
     border-radius: 0.375rem;
     font-family: Arial, sans-serif;
+    
+    
     
   }
   
@@ -636,8 +634,8 @@ input[type="text"] {
     align-items: center;
     justify-content: flex-end;
     padding-right: 10px;
-    width: 515px;
-    background-color: lightblue;
+    width: 508px;
+    background-color: rgb(255, 255, 255);
     margin-left: 10px;
   }
   
@@ -656,7 +654,7 @@ input[type="text"] {
     border: none;
     border-radius: 0.375rem;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #fefefe;
     cursor: pointer;
     font-size: 16px;
     width: 120px;
@@ -701,4 +699,6 @@ input[type="text"] {
 
   .container22 .total{
     width: 200px;
+    height: 40px;
+    margin-top: 8px;
   }
