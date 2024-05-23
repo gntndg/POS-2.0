@@ -112,7 +112,7 @@ body{
    
 }
 .user_image{
-    margin-left: 7px;
+    margin-left: 30px;
 }
 
 .user_image .user_logo{
@@ -166,7 +166,7 @@ body{
 }
 .navtwo{
     height: 60px;
-    width: 220vh;
+    width: 221vh;
     background: rgb(10, 147, 101);
     display: flex;
     align-items: center;
@@ -211,7 +211,7 @@ body{
     height: 520px;
     width: 220vh;
     background: rgb(81, 88, 110);
-    margin-top: 20px;
+    margin-top: 4px;
     border-radius: 10px;
     overflow:scroll;
 }
@@ -397,3 +397,111 @@ input[type="text"] {
   transform: translate(3px, 3px);
   box-shadow: 0px 0px var(--main-color);
 }
+
+
+.navthree{
+
+  width: 100%;
+  height: 40px;
+  background: rgb(10, 147, 101);
+  display: flex;
+  text-align: center;
+}
+
+.navthree h3{
+  margin-top: 7px;
+}
+
+.itemcode{
+height: 40px;
+width: 200px;
+background: rgb(26, 217, 154);
+border: solid black 2px;
+}
+
+.itemname{
+  height: 40px;
+  width: 200px;
+  background: rgb(26, 217, 154);
+  border: solid black 2px;
+  }
+
+  .itemcategory{
+    height: 40px;
+    width: 200px;
+    background: rgb(26, 217, 154);
+    border: solid black 2px;
+    }
+
+    .itemprice{
+      height: 40px;
+      width: 200px;
+      background: rgb(26, 217, 154);
+      border: solid black 2px;
+      }
+
+      .itemstock{
+        height: 40px;
+        width: 200px;
+        background: rgb(26, 217, 154);
+        border: solid black 2px;
+        }
+
+        .createdby{
+          height: 40px;
+          width: 200px;
+          background: rgb(26, 217, 154);
+          border: solid black 2px;
+          }
+
+          .createdat{
+            height: 40px;
+            width: 200px;
+            background: rgb(26, 217, 154);
+            border: solid black 2px;
+            }
+
+            .actions{
+              height: 40px;
+              width: 200px;
+              background: rgb(26, 217, 154);
+              border: solid black 2px;
+              }
+
+              .btnbox .itemcont{
+                width: 200px;
+                height: 20px;
+                background: rgb(207, 207, 207);
+                text-align: center;
+                overflow-x: hidden;
+                
+              }
+
+             .btnbox  #code{
+              width: 193px;
+             
+             }
+
+             .btnbox  #name{
+              width: 220px;
+             }
+
+             .btnbox  #category{
+              width: 224px;
+             }
+
+             .btnbox  #price{
+              width: 220px;
+             }
+
+             .btnbox  #stock{
+              width: 225px;
+             }
+
+             .btnbox  #cb{
+              width: 220px;
+             }
+
+             .btnbox  #ca{
+              width: 210px;
+             }
