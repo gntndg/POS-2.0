@@ -12,8 +12,6 @@ body{
 }
 
 
-/* main navigation bar ---------------------------------------------------------------------------------*/
-
 .mainnavigation{
     height: 65px;
     width: 99.8%;
@@ -97,21 +95,14 @@ body{
 }
 
 
-
-.paste-button:hover button {
-  
-}
-
 .paste-button:hover .dropdown-contentx {
   display: block;
 }
 
 
-
 .settings .settings_logo{
     height: 90%;
     width: 80%;
-    
 }
 
 .notification .notif_logo{
@@ -413,7 +404,7 @@ input[type="text"] {
 }
 
 .itemcontainer .box {
-  width:68.4em;
+  width:57em;
   height: 7px;
   color: black;
   padding: 1rem;
@@ -500,7 +491,6 @@ input[type="text"] {
    .container22 {
       overflow: hidden;
       position: relative;
-      display: flex;
       gap: 0.75rem;
       width: 545px;
       height: 100%;
@@ -517,143 +507,195 @@ input[type="text"] {
    }
 
 
-.container2 .order_details{
-    height: 170px;
+ 
+  .container22 .itemcontainerx{
     width: 100%;
-    color: rgb(0, 0, 0);
-    margin-left: 15px;
-    
+    height: 300px;
    
-    
-}
+    overflow-y: scroll;
+    border-bottom: solid green 2px;
+    border-top: solid green 2px;
+    border-radius: 3px;
+ 
+  }
 
-.container2 .order_details h3{
-    margin-top: 6px;
-    margin-left: 6px;
+  .container22 .itemselected{
+    width: 535px;
+    height: 50px;
+    border: solid green 4px;
+  }
+
+  .container22 .calculator{
+    width: 537px;
+    height:230px;
+  }
+  .buttonxyz {
+    --main-focus: #2d8cf0;
+    --font-color: #323232;
+    --bg-color-sub: #dedede;
+    --bg-color: #eee;
+    --main-color: #323232;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 12px;
+    margin-left: 390px;
+    margin-top: 2px;
+  }
+  
+  .buttonxyz, .button__iconz, .button__textz {
+    transition: all 0.3s;
+  }
+  
+  .buttonxyz .buttontextz {
+    transform: translateX(22px);
+    color: var(--font-color);
     font-weight: 600;
-}
-
-.container2 .order_details h4{
-    margin-left: 4px;
-    margin-top: 5px;
-    color: white;
-}
-
-.order_details .receipt_name{
-    height: 50px;
-    width: 517px;
-    border: solid rgb(250, 245, 245) 2px;
-    border-radius: 35px;
-    background: #606c88;
-    margin-top: 15px;
-
-        
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        border-radius: 0.5rem;
-        box-shadow: 0px 87px 78px -39px rgba(0, 0, 0, 0.4);
     
-}
+  }
+  
+  .buttonxyz .button__iconz {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: var(--bg-color-sub);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttonxyz .svg {
+    width: 20px;
+    fill: var(--main-color);
+  }
+  
+  .buttonxyz:hover {
+    background: var(--bg-color);
+  }
+  
+  .buttonxyz:hover .buttontextz {
+    color: transparent;
+  }
+  
+  .buttonxyz:hover .button__iconz {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .buttonxyz:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px var(--main-color);
+  }
 
-.order_details .order_date{
-    height: 50px;
-    width: 517px;
-    border: solid grey 2px;
-    border-radius: 35px;
-    background: rgb(238, 227, 227);
+  .itemcontainerx .boxselected{
+    width:99.9%;
+    height: 7px;
     color: black;
-    border: solid rgb(250, 245, 245) 2px;
-    margin-top: 15px;
-
-        
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        border-radius: 0.5rem;
-        background: #606c88;
-       
-       
-        box-shadow: 0px 87px 78px -39px rgba(0, 0, 0, 0.4);
-}
-
-
-
-
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border: 1px solid rgba(5, 5, 5, 0.984);
+    border-radius: 6px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    transition: all ease 0.3s;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 10px;
+   margin-top: 3px;
+  
+  }
 
 
 
-.container2 .payment_summary{
-    height: 440px;
-    width: 100%;
-    border-bottom: solid black 2.4px;
-}
-.container2 .payment{
-    height: 170px;
-    width: 100%;
+  .calculator {
+    border-radius: 0.375rem;
+    font-family: Arial, sans-serif;
     
-}
+  }
+  
+  .output {
+    border: 1px solid #130404;
+    border-radius: 0.375rem;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 515px;
+    background-color: lightblue;
+    margin-left: 10px;
+  }
+  
+  .result {
+    font-size: 20px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-left: 10px;
+  }
+  
+  button {
+    border: none;
+    border-radius: 0.375rem;
+    padding: 10px;
+    background-color: #eee;
+    cursor: pointer;
+    font-size: 16px;
+    width: 120px
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  button:active {
+    background-color: #ccc;
+  }
+  
+  .bg-green {
+    background-color: rgba(0, 177, 29, 0.651);
+    color: white;
+  }
+  
+  .bg-green:hover {
+    background-color: rgba(0, 231, 39, 0.651);
+    color: white;
+  }
+  
+  .bg-red {
+    background-color: rgba(223, 4, 4, 0.651);
+    color: white;
+  }
+  
+  .bg-red:hover {
+    background-color: rgba(255, 1, 1, 0.651);
+    color: white;
+  }
 
-.container2 .btn .Btn{
-        width: 230px;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(11, 73, 36);
-        border: none;
-        color: white;
-        font-weight: 600;
-        gap: 8px;
-        cursor: pointer;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
-        position: relative;
-        overflow: hidden;
-        transition-duration: .3s;
-        margin-top: 380px;
-        margin-left: 150px;
-        border-radius: 0px;
-      }
-      
-      .svgIcon {
-        width:20px;
-      }
-      
-      .svgIcon path {
-        fill: white;
-      }
-      
-      .Btn::before {
-        width: calc(100% + 40px);
-        aspect-ratio: 1/1;
-        position: absolute;
-        content: "";
-        background-color: white;
-        border-radius: 50%;
-        left: -20px;
-        top: 50%;
-        transform: translate(-150%, -50%);
-        transition-duration: .5s;
-        mix-blend-mode: difference;
-      }
-      
-      .Btn:hover::before {
-        transform: translate(0, -50%);
-      }
-      
-      .Btn:active {
-        transform: translateY(4px);
-        transition-duration: .3s;
-      }
+  .container22 .change{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+   
+  }
 
-
-
-
-
-
-
-
-
-
-
-
+  .container22 .total{
+    width: 200px;
+  }
