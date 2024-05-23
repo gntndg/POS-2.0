@@ -126,8 +126,8 @@ body{
     
 }
 
-.cashier_info h4{
-  margin-left: 630px;
+.cashier_info h4,h5{
+  margin-left: 800px;
   font-size: 10px;
   margin-top:15px;
 }
